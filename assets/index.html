@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <!-- =========================== SWIPER CSS ========================== -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
 
     <!-- ============================== CSS ============================= -->
     <link rel="stylesheet" href="css/style.css">
@@ -98,7 +98,7 @@
                     </div>
 
                     <div class="home__data">
-                        <h1 class="home__title">Hi, I'am YeongJun</h1>
+                        <h1 class="home__title">Hi, I'm YeongJun</h1>
                         <h3 class="home__subtitle">Backend Develper</h3>
                         <p class="home__description">High level experience in web design and development knowledge, producing quality work.</p>
                         <a href="#contact" class="button button--flex">
@@ -467,6 +467,73 @@
             </div>
         </section>
 
+        <!-- ============================ portfolio ==================================== -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- ============================ portfolio 1 ================================== -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/deep-story.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Deep - Story</h3>
+                            <p class="portfolio__description">딥러닝 Stable Diffusion 모델을 이용한 그림 일기 블로그</p>
+                            <a href="https://github.com/itavita08/Deep-Story" class="button button--flex button--small portfolio__button">
+                                Detail
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ============================ portfolio 2 ================================== -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/star.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Star</h3>
+                            <p class="portfolio__description">ElasticStack 을 이용한 별 관측 정보 제공 웹 애플리케이션</p>
+                            <a href="https://github.com/itavita08/Star" class="button button--flex button--small portfolio__button">
+                                Detail
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- ===================== project in mind ============================== -->
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">You have a new project</h2>
+                        <p class="project__description">Contact me now and get a 30% discount on your new project</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contact Me
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+
+                    <img src="/assets/img/project.png" alt="" class="project__img">
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============================ contact me ============================= -->
+        
     </main>
 
     <!-- ======================== FOOTER ===================== -->
@@ -474,7 +541,7 @@
     <!-- ========================= SCROLL TOP ========================= -->
 
     <!-- ================================= SWIPER JS =============================== -->
-    <script src=""></script>
+    <script src="/assets/js/swiper-bundle.min.js"></script>
     
     <!-- ============================== MAIN JS ============================== -->
     <script src="js/main.js"></script>
