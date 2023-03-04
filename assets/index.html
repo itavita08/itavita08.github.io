@@ -24,28 +24,33 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
-                            <i class="uil uil-estate nav_icon"></i> Home
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#about" class="nav__link">
-                            <i class="uil uil-user nav_icon"></i> About
+                            <i class="uil uil-user nav__icon"></i> About
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
-                            <i class="uil uil-file-alt nav_icon"></i> Skills
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Qualification
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#project" class="nav__link">
-                            <i class="uil uil-briefcase-alt nav_icon"></i> Project
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Project
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                            <i class="uil uil-message nav_icon"></i> Contactme
+                            <i class="uil uil-message nav__icon"></i> Contactme
                         </a>
                     </li>
                 </ul>
@@ -53,6 +58,9 @@
             </div>
 
             <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
@@ -315,7 +323,7 @@
         </section>
 
         <!-- ============================== qualification ================================= -->
-        <section class="qualification section">
+        <section class="qualification section" id="qualification">
             <h2 class="section__title">Qualification</h2>
             <span class="section__subtitle">My personal journey</span>
 
@@ -468,8 +476,8 @@
         </section>
 
         <!-- ============================ portfolio ==================================== -->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Portfolio</h2>
+        <section class="portfolio section" id="project">
+            <h2 class="section__title">Project</h2>
             <span class="section__subtitle">Most recent work</span>
 
             <div class="portfolio__container container swiper-container">
@@ -531,14 +539,113 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- ============================ contact me ============================= -->
-        
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">010-6287-1936</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">dudwns10000@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">경기도 화성시 동탄대로12길 64</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Project</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
 
     <!-- ======================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Yeongjun</h1>
+                    <span class="footer__subtitle">Backend developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#project" class="footer__link">Project</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/profile.php?id=100003787472978" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/ita_vita_0/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://github.com/itavita08" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Bedimcode. All right reserved</p>
+        </div>
+    </footer>
 
     <!-- ========================= SCROLL TOP ========================= -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
 
     <!-- ================================= SWIPER JS =============================== -->
     <script src="/assets/js/swiper-bundle.min.js"></script>
