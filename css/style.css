@@ -514,6 +514,9 @@ img{
 .skills__python{
     width: 70%;
 }
+.skills__node{
+    width: 60%;
+}
 
 .skills__mysql{
     width: 70%;
